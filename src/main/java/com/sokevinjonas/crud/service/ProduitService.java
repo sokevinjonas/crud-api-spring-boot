@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface ProduitService {
 
-    Produit create(Produit produit);
+    Produit creer(Produit produit);
 
     List<Produit> lire();
 
